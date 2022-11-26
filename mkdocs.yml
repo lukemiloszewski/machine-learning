@@ -1,8 +1,21 @@
-site_name: Machine Learning
+site_name: Luke Miloszewski
 copyright: Luke Miloszewski
 
 repo_name: lukemiloszewski/machine-learning
 repo_url: https://github.com/lukemiloszewski/machine-learning
+
+nav:
+  - "index.md"
+  - "blog.md"
+  - Projects:
+    - "projects/resources.md"
+  - Python:
+    - "python/index.md"
+  - Machine Learning:
+    - "ml/index.md"
+
+extra_css:
+  - stylesheets/extra.css
 
 theme:
   name: material
@@ -13,22 +26,12 @@ theme:
     - media: '(prefers-color-scheme: light)'
       scheme: default
       primary: black
-      accent: amber
-      toggle:
-        icon: material/lightbulb
-        name: Switch to light mode
-    - media: '(prefers-color-scheme: dark)'
-      scheme: slate
-      primary: black
-      accent: amber
-      toggle:
-        icon: material/lightbulb-outline
-        name: Switch to dark mode
   features:
     - navigation.instant
     - navigation.tracking
-    - toc.follow
     - navigation.top
+    - toc.follow
+    # - navigation.sections
 
 markdown_extensions:
   - attr_list

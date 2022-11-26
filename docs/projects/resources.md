@@ -1,4 +1,4 @@
-# Resources
+# Reading List
 
 ## Articles
 
